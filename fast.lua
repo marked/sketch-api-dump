@@ -6,7 +6,7 @@ wget.callbacks.get_urls = function(file, url, is_css, iri)
   print(next)
   return {
     {
-      url="https://sketch.sonymobile.com/api/1/feed/global/list/default/"..next,
+      url="https://sketch.sonymobile.com/api/1/feed/global/list/default/" .. next,
       link_expect_html=0,
       link_expect_css=0
     }
